@@ -6974,6 +6974,16 @@ a.navbar-item.active, a.navbar-item:hover {
   background-color: #f9f9f9;
   color: #ff8080; }
 
+.tabs ul {
+  padding: 0;
+  margin: 0; }
+
+@media screen and (max-width: 768px) {
+  #tabs-with-content .tabs {
+    font-size: 1rem; }
+  .hero.is-primary .title {
+    padding-top: 1.5em; } }
+
 @media screen and (min-width: 769px), print {
   .hero.is-medium .hero-body {
     padding-bottom: 6rem; } }
