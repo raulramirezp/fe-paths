@@ -2,7 +2,6 @@
 
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
-$blue: #06bcef;
 $pink: #ff8080;
 $pink-invert: #fff;
 
@@ -38,7 +37,7 @@ a.navbar-item.active, a.navbar-item:hover {
   margin: 0;
 }
 @media screen and (max-width: 768px) {
-  #tabs-with-content .tabs {
+  #tabs-with-content.tabs {
     font-size: 1rem;
   }
   .hero.is-primary .title {
