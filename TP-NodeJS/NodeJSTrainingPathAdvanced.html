@@ -25,10 +25,10 @@
                 <a href="NodeJSTrainingPathBasic.html" class="navbar-item">
                     Basic
                 </a>
-                <a href="NodeJSTrainingPathIntermediate.html" class="navbar-item active">
+                <a href="NodeJSTrainingPathIntermediate.html" class="navbar-item">
                     Intermediate
                 </a>
-                <a href="NodeJSTrainingPathAdvanced.html" class="navbar-item">
+                <a href="NodeJSTrainingPathAdvanced.html" class="navbar-item active">
                     Advanced
                  </a>
             </div>
@@ -40,10 +40,10 @@
                 <div class="columns">
                     <div class="column is-8-desktop is-offset-2-desktop">
                         <h1 class="title is-2 is-spaced">
-                            NodeJS Training (Intermediate)
+                            NodeJS Training (Advanced)
                         </h1>
                         <h2 class="subtitle is-4">
-                            This is the NodeJS Training learning path for intermediate developers
+                            This is the NodeJS Training learning path for Advanced developers
                         </h2>
                     </div>
                 </div>
@@ -66,66 +66,73 @@
                                 <section class="tab-content">
                                     <ul>
                                         <li>
-                                            <h5>1) Complex Concepts </h5>
+                                            <h5>1) Experimental</h5>
                                             <ul>
-                                                <h5>1.1) Event Loop</h5>
+                                                <h5>1.1) Core Modules</h5>
                                                 <li>
-                                                    <a target="_blank" href="https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/">Event Loop, Timers, and next tick</a>
+                                                    <a target="_blank" href="https://nodejs.org/dist/latest-v12.x/docs/api/async_hooks.html"> Async Hooks</a>
                                                 </li>
                                                 <li>
-                                                    <a target="_blank" href="https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c">Understanding Event Loop</a>
-                                                </li>
-
-                                                <h5>1.2) Core Modules</h5>
-                                                <li>
-                                                    <a target="_blank" href="https://nodejs.org/dist/latest-v12.x/docs/api/events.html#events_events"> Events and Event Emitters</a>
+                                                    <a target="_blank" href="https://nodejs.org/api/wasi.html">WebAssembly System Interface (WASI)</a>
                                                 </li>
                                                 <li>
-                                                    <a target="_blank" href="https://nodejs.org/dist/latest-v12.x/docs/api/buffer.html">Buffer</a>
+                                                    <a target="_blank" href="https://nodejs.org/api/esm.html#esm_ecmascript_modules"> ECMAScript Modules</a>
                                                 </li>
                                                 <li>
-                                                    <a target="_blank" href="https://nodejs.org/dist/latest-v12.x/docs/api/repl.html#repl_repl">REPL</a>
-                                                </li>
-
-                                                <h5>1.3) Module System</h5>
-                                                <li>
-                                                    <a target="_blank" href="https://nodejs.org/api/modules.html#modules_modules"> NodeJS module system</a>
+                                                    <a target="_blank" href="https://nodejs.org/api/inspector.html#inspector_inspector">Inspector</a>
                                                 </li>
                                                 <li>
-                                                    <a target="_blank" href="https://docs.npmjs.com/creating-node-js-modules">Creating a NodeJS Module</a>
-                                                </li>
-
-                                                <h5>1.4) External Modules</h5>
-                                                <li>
-                                                    <a target="_blank" href="https://socket.io"> Real-Time communication with Socket.io</a>
+                                                    <a target="_blank" href="https://nodejs.org/dist/latest-v12.x/docs/api/stream.html"> Streams</a>
                                                 </li>
                                                 <li>
-                                                    <a target="_blank" href="https://capriza.github.io/node-busmq/">Messages Buses</a>
+                                                    <a target="_blank" href="https://nodejs.org/api/crypto.html#crypto_crypto"> Crypto</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <h5>2) Testing </h5>
+                                            <h5>2) Scripting </h5>
                                             <ul>
-                                                <h5>2.1) JestJS</h5>
+                                                <h5>2.1) Scripting</h5>
                                                 <li>
-                                                    <a target="_blank" href="https://jestjs.io/docs/en/getting-started.html">Install JestJS</a>
+                                                    <a target="_blank" href="https://medium.com/@ian.mundy/writing-a-node-js-script-4baef96104da"> Writing a NodeJS Script</a>
                                                 </li>
                                                 <li>
-                                                    <a target="_blank" href="https://jestjs.io/docs/en/using-matchers"> JestJS First Steps</a>
-                                                </li>
-                                                <li>
-                                                    <a target="_blank" href="https://jestjs.io/docs/en/asynchronous">JestJS Testing Asynchronous Code</a>
+                                                    <a target="_blank" href="https://x-team.com/blog/a-guide-to-creating-a-nodejs-command/">Creating a NodeJS command</a>
                                                 </li>
 
-                                                <h5>2.2) MochaJS</h5>
-                                                <li>
-                                                    <a target="_blank" href="https://codeburst.io/how-to-test-javascript-with-mocha-the-basics-80132324752e"> Basics MochaJS</a>
-                                                </li>
-                                                <li>
-                                                    <a target="_blank" href="https://www.youtube.com/watch?v=Bs68k6xfR3E">Testing with Mocha</a>
-                                                </li>
                                             </ul>
+                                        </li>
+                                        <li>
+                                            <h5>3) Quality Requirements </h5>
+                                            <li>
+                                                <a target="_blank" href="https://eslint.org/docs/developer-guide/nodejs-api">Linters</a>
+                                            </li>
+                                            <li>Logging with Log4JS</li>
+                                            <li>Logging with Winston</li>
+                                            <li>
+                                                <a target="_blank" href="https://nodejs.org/uk/docs/guides/simple-profiling/">Simple Profiling</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://docs.python.org/3/library/timeit.html">https://docs.python.org/3/library/timeit.html</a>
+                                            </li>
+                                        </li>
+                                        <li>
+                                            <h5>4) Important resources </h5>
+                                            <li>
+                                                <a target="_blank" href="https://github.com/aliyr/Nodejs-Developer-Roadmap">NodeJS Roadmap</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://frontendmasters.com/learn/node-js/">NodeJS Frontendmaster Course</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://developer.ibm.com/articles/learn-node-unit-1-overview-nodejs-learning-path/">Learn Node (IBM Resource)</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://www.amazon.com/-/es/Basarat-Syed/dp/1484201884">Beginning Node.js by Basarat Ali Syed</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://www.pluralsight.com/paths/node-js">Courses Pluralsight</a>
+                                            </li>
                                         </li>
                                     </ul>
 
